@@ -7,6 +7,7 @@
 `sed: can't read addons/dev/custom_sale_codes/__manifest__.py: No such file or directory`
 
 ### Carga del modulo en DEV
+
 ```
 sed -n '1,200p' addons/dev/custom_sale_codes/__manifest__.py
 {
