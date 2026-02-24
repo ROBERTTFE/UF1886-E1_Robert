@@ -20,5 +20,5 @@ sed -n '1,200p' addons/dev/custom_sale_codes/__manifest__.py
     ],
     "installable": True,
     "application": False,
-    "license": "LGPL -3"
+    "license": "LGPL-3"
 }
