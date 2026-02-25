@@ -5,7 +5,7 @@
     "summary": "Añade referencia interna y código de barras al reporte de pedido.",
     "depends": ["sale"],
     "data": [
-        "views/sale_report.xml",
+        #"views/sale_report.xml",
     ],
     "installable": True,
     "application": False,
