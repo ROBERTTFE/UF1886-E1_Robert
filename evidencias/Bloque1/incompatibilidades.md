@@ -8,7 +8,6 @@
 
 ### Carga del modulo en DEV
 
-```
 sed -n '1,200p' addons/dev/custom_sale_codes/__manifest__.py
 {
     "name": "Custom Sale Codes (Report)",
