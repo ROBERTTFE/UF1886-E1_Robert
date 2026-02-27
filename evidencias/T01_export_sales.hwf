@@ -1,0 +1,9 @@
+T01_export_sales.hwf - Simulación Odoo 18
+
+Exportación de Ventas (Pedidos de Venta)
+Odoo versión: 18.0
+Fecha simulación: 25/02/2026
+Módulo: Ventas → Pedidos de venta
+Campos típicos exportados: Número pedido, Cliente, Fecha, Vendedor, Total sin impuestos, Total con impuestos, Estado
+Formato salida: XLSX / CSV
+Filtro ejemplo: Pedidos confirmados (state = 'sale') del mes actual
