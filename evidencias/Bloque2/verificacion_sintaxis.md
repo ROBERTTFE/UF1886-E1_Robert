@@ -20,8 +20,9 @@ ls -la
 -rw-rw-r-- 1 user user    0 Feb 24 13:43 __init__.py
 -rw-rw-r-- 1 user user  335 Feb 25 13:54 __manifest__.py
 drwxrwxr-x 2 user user 4096 Feb 25 13:54 views
-
+```
 ```code
+contenido __manifest__.py
 
 {
     "license": "LGPL-3",
@@ -35,3 +36,44 @@ drwxrwxr-x 2 user user 4096 Feb 25 13:54 views
 }
 
 ```
+
+## 1) Validación XML
+
+__Objetivo:__ comprobar que el XML referenciado en el manifest está bien formado.
+
+__Archivo referenciado:__
+
+- views/sale_report.xml
+
+
+### 1.1 Verificar la existencia del archivo
+
+__Comando ejecutado:__
+
+```bash
+
+```
+__Salida obtenida:__
+
+```bash
+
+
+```
+
+### 1.2 Validación archivo XML (bien formado)
+```bash
+xmllint --noout views/sale_report.xml
+echo $?
+```
+
+__Salida obtenida:__
+```bash
+
+
+
+```
+__Resultado:__
+- Código de retorno
+- Interpretación:
+  - 0 -> XML bien formado
+  - Error -> indicar mensaje exacto 
