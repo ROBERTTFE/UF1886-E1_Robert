@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template id="report_saleorder_document_inherit_codes" 
+                inherit_id="sale.report_saleorder_document">
+        <!-- Insertamos dos columnas en la cabecera, justo despues de la primera columna -->
+        <xpath expr="//th[@name='th_description']" position="after">
+            <th name="th_default_code" class="text-start text-nowrap">Ref. Interna</th>
+            <th name="th_barcode" class="text-start text-nowrap">Código de barras</th>
+        </xpath>
+
+        <!-- Insertamos dos celdas en cada línea normal -->
+        <xpath expr="//td[@name='td_name']" position="after">
+            <td name="td_default_code" class="text-start text-nowrap">
+                <span t-field="line.product_id.default_code" />
+            </td>
+            <td name="td_barcode" class="text-start text-nowrap">
+                <span t-field="line.product_id.barcode" />
+            </td>
+            <td name="td_default_code" class="text-start text-nowrap">
+                <span t-field="line.product_id.default_code"/>
+            </td>
+        </xpath>
+    </template>    
+</odoo>
