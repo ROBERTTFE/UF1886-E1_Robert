@@ -1,0 +1,100 @@
+2026-02-27 09:07:57,076 1 INFO odoo_qa odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-02-27 09:07:57,091 1 INFO odoo_qa odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-02-27 09:07:57,093 1 INFO odoo_qa odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-02-27 09:07:57,136 1 INFO odoo_qa odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-02-27 09:07:57,157 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.244s 
+2026-02-27 09:07:57,166 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2026-02-27 09:07:57,190 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2026-02-27 09:07:57,211 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2026-02-27 09:07:57,217 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) done in 0.006s 
+2026-02-27 09:07:57,221 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) processed 0 records, 0 records remaining 
+2026-02-27 09:07:57,225 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) completed 
+=== Entrypoint Personalizado - Odoo ===
+✓ Admin password cargada (4 caracteres)
+✓ DB password cargada (4 caracteres)
+Configuración detectada:
+  Host: postgres
+  Puerto: 5432
+  Base de datos: odoo_qa
+  Usuario: odoo_qa
+=== Esperando PostgreSQL ===
+PostgreSQL no disponible, esperando... (1/30)
+PostgreSQL no disponible, esperando... (2/30)
+PostgreSQL no disponible, esperando... (3/30)
+✓ PostgreSQL listo
+=== Verificando estado de la BD ===
+✓ Base de datos ya inicializada (121 tablas)
+=== Iniciando Odoo ===
+2026-02-27 09:12:06,875 1 INFO ? odoo: Odoo version 18.0-20251222 
+2026-02-27 09:12:06,875 1 INFO ? odoo: Using configuration file at /tmp/odoo.conf 
+2026-02-27 09:12:06,875 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/18.0', '/mnt/extra-addons'] 
+2026-02-27 09:12:06,876 1 INFO ? odoo: database: odoo_qa@postgres:5432 
+Warn: Can't find .pfb for face 'Courier'
+2026-02-27 09:12:07,865 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2026-02-27 09:12:08,020 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2026-02-27 09:12:08,918 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 4529db4de34a:8069 
+2026-02-27 09:12:09,068 1 INFO odoo_qa odoo.modules.loading: loading 1 modules... 
+2026-02-27 09:12:09,078 1 INFO odoo_qa odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-02-27 09:12:09,233 1 INFO odoo_qa odoo.modules.loading: loading 12 modules... 
+2026-02-27 09:12:10,440 1 INFO odoo_qa odoo.modules.loading: 12 modules loaded in 1.21s, 0 queries (+0 extra) 
+2026-02-27 09:12:10,634 1 INFO odoo_qa odoo.modules.loading: Modules loaded. 
+2026-02-27 09:12:10,648 1 INFO odoo_qa odoo.modules.registry: Registry loaded in 1.711s 
+=== Entrypoint Personalizado - Odoo ===
+✓ Admin password cargada (4 caracteres)
+✓ DB password cargada (4 caracteres)
+Configuración detectada:
+  Host: postgres
+  Puerto: 5432
+  Base de datos: odoo_qa
+  Usuario: odoo_qa
+=== Esperando PostgreSQL ===
+PostgreSQL no disponible, esperando... (1/30)
+PostgreSQL no disponible, esperando... (2/30)
+✓ PostgreSQL listo
+=== Verificando estado de la BD ===
+✓ Base de datos ya inicializada (121 tablas)
+=== Iniciando Odoo ===
+2026-02-27 09:23:43,822 1 INFO ? odoo: Odoo version 18.0-20251222 
+2026-02-27 09:23:43,822 1 INFO ? odoo: Using configuration file at /tmp/odoo.conf 
+2026-02-27 09:23:43,822 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/18.0', '/mnt/extra-addons'] 
+2026-02-27 09:23:43,823 1 INFO ? odoo: database: odoo_qa@postgres:5432 
+Warn: Can't find .pfb for face 'Courier'
+2026-02-27 09:23:44,758 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2026-02-27 09:23:44,931 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2026-02-27 09:23:46,817 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 4529db4de34a:8069 
+2026-02-27 09:23:47,123 1 INFO odoo_qa odoo.modules.loading: loading 1 modules... 
+2026-02-27 09:23:47,129 1 INFO odoo_qa odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-02-27 09:23:47,202 1 INFO odoo_qa odoo.modules.loading: loading 12 modules... 
+2026-02-27 09:23:48,212 1 INFO odoo_qa odoo.modules.loading: 12 modules loaded in 1.01s, 0 queries (+0 extra) 
+2026-02-27 09:23:48,466 1 INFO odoo_qa odoo.modules.loading: Modules loaded. 
+2026-02-27 09:23:48,492 1 INFO odoo_qa odoo.modules.registry: Registry loaded in 1.668s 
+=== Entrypoint Personalizado - Odoo ===
+✓ Admin password cargada (4 caracteres)
+✓ DB password cargada (4 caracteres)
+Configuración detectada:
+  Host: postgres
+  Puerto: 5432
+  Base de datos: odoo_qa
+  Usuario: odoo_qa
+=== Esperando PostgreSQL ===
+PostgreSQL no disponible, esperando... (1/30)
+PostgreSQL no disponible, esperando... (2/30)
+PostgreSQL no disponible, esperando... (3/30)
+✓ PostgreSQL listo
+=== Verificando estado de la BD ===
+✓ Base de datos ya inicializada (121 tablas)
+=== Iniciando Odoo ===
+2026-02-27 09:25:16,338 1 INFO ? odoo: Odoo version 18.0-20251222 
+2026-02-27 09:25:16,338 1 INFO ? odoo: Using configuration file at /tmp/odoo.conf 
+2026-02-27 09:25:16,338 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/18.0', '/mnt/extra-addons'] 
+2026-02-27 09:25:16,348 1 INFO ? odoo: database: odoo_qa@postgres:5432 
+Warn: Can't find .pfb for face 'Courier'
+2026-02-27 09:25:17,291 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2026-02-27 09:25:17,464 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2026-02-27 09:25:18,344 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 4529db4de34a:8069 
+2026-02-27 09:25:18,437 1 INFO odoo_qa odoo.modules.loading: loading 1 modules... 
+2026-02-27 09:25:18,442 1 INFO odoo_qa odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-02-27 09:25:18,542 1 INFO odoo_qa odoo.modules.loading: loading 12 modules... 
+2026-02-27 09:25:19,792 1 INFO odoo_qa odoo.modules.loading: 12 modules loaded in 1.25s, 0 queries (+0 extra) 
+2026-02-27 09:25:20,046 1 INFO odoo_qa odoo.modules.loading: Modules loaded. 
+2026-02-27 09:25:20,075 1 INFO odoo_qa odoo.modules.registry: Registry loaded in 1.729s 
